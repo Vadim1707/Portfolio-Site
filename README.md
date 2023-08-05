@@ -8,6 +8,6 @@ How to launch:
 2. enter command: python -m flask --app main run
 
 Links on website:
-https://leetcode.com/vadimsedov1707/
-https://github.com/Vadim1707
-https://www.programiz.com/dsa
+https://leetcode.com/vadimsedov1707/  
+https://github.com/Vadim1707   
+https://www.programiz.com/dsa   
