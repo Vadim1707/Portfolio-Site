@@ -6,3 +6,8 @@ Cайт-визитівка
 How to launch:
 1. Create virtual environment in destination folder, make sure that Flask is downloaded
 2. enter command: python -m flask --app main run
+
+Links on website:
+https://leetcode.com/vadimsedov1707/
+https://github.com/Vadim1707
+https://www.programiz.com/dsa
