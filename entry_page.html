@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Atlant0</title>
+
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+        background-size: 180% 180%;
+        animation: gradient-animation 6s ease infinite;
+        overflow: hidden;
+        text-align: center;
+      }
+
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .links {
+        float: right;
+        width: 50%;
+      }
+      .books {
+        float: left;
+        width: 50%;
+      }
+      img {
+        height: 500px;
+        float: left;
+        width: 500px;
+      }
+      ol li {
+        list-style-type: none;
+      }
+      .icon1 {
+        position: absolute;
+
+        text-align: center;
+        left: 35%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+      }
+
+      .icon2 {
+        position: absolute;
+        text-align: center;
+        left: 65%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+      }
+      .port {
+        position: absolute;
+        top: 60%;
+        left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icons">
+      <img class="icon1" src="static\selfie.jpg" alt="irl pfp" />
+      <img class="icon2" src="static\sobaka.png" alt="furry pfp" />
+    </div>
+    <div class="port">
+      <h1>A list of all python-related activity of Vadim Siedov AKA Atlant0</h1>
+      <div class="books">
+        <h2>Read Books:</h2>
+        <ol>
+          <li>
+            Introduction to programming in Python: An interdisciplinary Approach
+            - Robert Sedgewick, Kevin Wayne, Robert Dondero (ch. 1-4 to learn
+            the basics)
+          </li>
+          <li>Автоматизация предприятия c помощью пайтон - Агравал Амбудж</li>
+          <li>
+            <a href="https://www.programiz.com/dsa"
+              >Data structures and algorithms - Programmiz</a
+            >
+          </li>
+          <li>Грокаем алгоритмы - Бхаргава Адитья</li>
+          <li>Пайтон - чистый код для продолжающих - Эл Свейгарт</li>
+        </ol>
+      </div>
+
+      <div class="links">
+        <h2>Other Activity:</h2>
+        <ol>
+          <li><a href="https://github.com/Vadim1707/">My github</a></li>
+          <li>
+            <a href="https://leetcode.com/vadimsedov1707/">My leetcode</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
